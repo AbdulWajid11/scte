@@ -830,6 +830,7 @@ body {
     .text {
     font-size: 15px;
     padding: 0px 5px;
+    color: #eef2ff !important;
   }
   .footer_background_color
     .main_upper_div_uls
@@ -857,6 +858,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     padding: 0px 5px;
+    color: #eef2ff !important;
   }
   .footer_background_color .main_upper_div_uls .last_ul_div .last_ul {
     flex-direction: column;
