@@ -9,8 +9,6 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -67,7 +65,7 @@
       <!-- main_div_header -->
       <div class="main_div_header">
         <!-- hamburger_div -->
-        <div class="hamburger_div">
+        <div onclick="navigationMenus()" class="hamburger_div">
           <div class="line"></div>
           <div class="line"></div>
           <div class="line"></div>
@@ -78,6 +76,126 @@
         </div>
         <!-- search_logo -->
         <img class="search_logo" src="./assets/images/searching.png" />
+      </div>
+    </div>
+    <!--background_color_side_nav_lists -->
+    <div id="navigations" class="background_color_side_nav_lists">
+      <!-- 1nd_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--1st_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>What We Do</p>
+          </div>
+        </div>
+      </div>
+      <!-- 2nd_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--2st_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Standards</p>
+          </div>
+        </div>
+      </div>
+      <!-- 3rd_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--3rd_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Education</p>
+          </div>
+        </div>
+      </div>
+      <!-- 4th_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--4th_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Education</p>
+          </div>
+        </div>
+      </div>
+      <!-- 5th_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--5th_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Certification</p>
+          </div>
+        </div>
+      </div>
+      <!-- 6th_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--6th_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Chapters</p>
+          </div>
+        </div>
+      </div>
+      <!-- 7th_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--7th_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Membership</p>
+          </div>
+        </div>
+      </div>
+      <!-- 8th_main_arrow_and_text_div -->
+      <div class="main_arrow_and_text_div">
+        <!--8th_arrow_text -->
+        <div class="arrow_text">
+          <!-- image -->
+          <di class="image">
+            <img src="./assets/images/right-arrow.png" />
+          </di>
+          <!-- text -->
+          <div class="text">
+            <p>Corporate Alliance Program</p>
+          </div>
+        </div>
+      </div>
+      <!-- buttons_div_for responsive -->
+      <div class="buttons_div_for_responsive">
+        <button class="chnage">LOG IN</button>
+        <button class="sign">SIGN UP</button>
       </div>
     </div>
     <!-- main_middle_container -->
@@ -298,7 +416,16 @@
         </div>
       </div>
     </div>
-
     <!-- end -->
+    <script>
+      function navigationMenus() {
+        var a = document.getElementById("navigations");
+        if (a.style.display == "block") {
+          a.style.display = "none";
+        } else {
+          a.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>

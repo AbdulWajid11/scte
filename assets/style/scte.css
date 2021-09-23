@@ -4,6 +4,9 @@ body {
   margin: 0px;
   padding: 0px;
 }
+#navigations{
+  display: none;
+}
 /* container */
 .container {
   max-width: 1200px;
@@ -32,14 +35,15 @@ body {
 /* hamburger_div */
 .responsive_container_for_mobile .main_div_header .hamburger_div {
   width: 25px;
- 
+  cursor: pointer;
 }
 /* .hamburger_line */
-.responsive_container_for_mobile .main_div_header .hamburger_div .line{
+.responsive_container_for_mobile .main_div_header .hamburger_div .line {
   background-color: white;
   border-radius: 40px;
   height: 2px;
   margin: 5px 0px;
+  
 }
 /* logo */
 .responsive_container_for_mobile .main_div_header .logo {
@@ -65,7 +69,76 @@ body {
   padding: 10px 0px;
   border-bottom: 1px solid #323b52;
 }
+/* background_color_side_nav_lists */
+.background_color_side_nav_lists {
+  background-color: #323b52;
+  position: absolute;
+  width: 100%;
+}
+/* main_arrow_and_text_div */
+.background_color_side_nav_lists .main_arrow_and_text_div {
+  margin: 0px;
+  padding: 5px 15px;
+}
+/* 1st_arrow_text */
+.background_color_side_nav_lists .main_arrow_and_text_div .arrow_text {
+  display: flex;
+  align-items: center;
+}
+/* image */
+.background_color_side_nav_lists .main_arrow_and_text_div .arrow_text .image {
+  background: #272d3c;
+  height: 20px;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
 
+/* just_img */
+.background_color_side_nav_lists
+  .main_arrow_and_text_div
+  .arrow_text
+  .image
+  img {
+  height: 13px;
+}
+/* text */
+.background_color_side_nav_lists .main_arrow_and_text_div .arrow_text .text {
+  font-weight: 500;
+  color: #d1d5db;
+  font-size: 15px;
+  padding: 0px 10px;
+}
+/* .just_p */
+.background_color_side_nav_lists .main_arrow_and_text_div .arrow_text .text p {
+  margin: 0px;
+}
+/* buttons_div_for_responsive */
+.background_color_side_nav_lists .buttons_div_for_responsive {
+  text-align: center;
+ padding: 25px 0px;
+}
+/* login_button */
+.background_color_side_nav_lists .buttons_div_for_responsive .chnage {
+  background: #323b52;
+  color: #309dca;
+  border: 1px solid #2fbdf2;
+  border-radius: 3px;
+  padding: 8px 35px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
+/* sign_button */
+.background_color_side_nav_lists .buttons_div_for_responsive .sign {
+  background: #f17a28;
+  color: white;
+  border: 2px solid #f17a28;
+  border-radius: 3px;
+  padding: 8px 35px;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 5px;
+}
 /* image */
 .main_container_header .header_logo_form_button .right_side_logo img {
   height: 50px;
@@ -1280,14 +1353,14 @@ body {
   /* .responsive_container_for_mobile .main_div_header .hamburger_div  */
   .responsive_container_for_mobile .main_div_header .hamburger_div {
     width: 25px;
-}
-/* responsive_container_for_mobile .main_div_header .hamburger_div .line */
-.responsive_container_for_mobile .main_div_header .hamburger_div .line {
-  background-color: white;
-  border-radius: 40px;
-  height: 2px;
-  margin: 5px 0px;
-}
+  }
+  /* responsive_container_for_mobile .main_div_header .hamburger_div .line */
+  .responsive_container_for_mobile .main_div_header .hamburger_div .line {
+    background-color: white;
+    border-radius: 40px;
+    height: 2px;
+    margin: 5px 0px;
+  }
 
   /* .responsive_container_for_mobile .main_div_header .logo */
   .responsive_container_for_mobile .main_div_header .logo {
